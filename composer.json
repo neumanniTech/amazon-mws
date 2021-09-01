@@ -20,7 +20,18 @@
   ],
   "autoload": {
     "psr-0": {
-      "MarketplaceWebService": "src/"
+      "FBAInboundServiceMWS": "src/",
+      "FBAInventoryServiceMWS": "src/",
+      "FBAOutboundServiceMWS": "src/",
+      "MarketplaceWebService": "src/",
+      "MarketplaceWebServiceOrders": "src/",
+      "MarketplaceWebServiceProducts": "src/",
+      "MarketplaceWebServiceSellers": "src/",
+      "MWSEasyShipSectionService": "src/",
+      "MWSFinancesService": "src/",
+      "MWSMerchantFulfillmentService": "src/",
+      "MWSRecommendationsSectionService": "src/",
+      "MWSSubscriptionsService": "src/"
     }
   }
 }
