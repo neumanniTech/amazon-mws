@@ -1,0 +1,26 @@
+{
+  "name": "neumanni.tech/amazon-mws",
+  "description": "Amazon Marketplace Web Service libraries",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Amazon.com, Inc.",
+      "homepage": "https://developer.amazonservices.de/"
+    },
+    {
+      "name": "Tobias Neumann",
+      "email": "neumanni.tech@gmail.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "minimum-stability": "dev",
+  "require": {},
+  "include-path": [
+    "src/"
+  ],
+  "autoload": {
+    "psr-0": {
+      "MarketplaceWebService": "src/"
+    }
+  }
+}
